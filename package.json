@@ -13,6 +13,9 @@
     "type": "git",
     "url": "https://github.com/Jake0oo0/crafatar"
   },
+  "engines": {
+    "iojs": "2.0.x"
+  },
   "issues": {
     "url": "https://github.com/Jake0oo0/crafatar/issues"
   },
@@ -32,11 +35,11 @@
     "istanbul": "^0.3.2",
     "jade": "~1.8.2",
     "lwip": "crafatar/lwip",
-    "mocha": "2.1.0",
+    "mime": "1.2.11",
+    "mocha": "^2.1.0",
     "mocha-lcov-reporter": "0.0.1",
-    "redis": "0.12.1",
-    "request": "2.51.0",
     "node-df": "0.1.1",
-    "mime": "1.2.11"
+    "redis": "0.12.1",
+    "request": "2.51.0"
   }
 }
