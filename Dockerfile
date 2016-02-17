@@ -18,6 +18,10 @@ RUN cd /app && npm install
 
 # Add the app
 ADD . /app
+
+# Add the default config file
+ADD config.example.js /app/config.js
+
 WORKDIR /app
 
 # Set up environment
